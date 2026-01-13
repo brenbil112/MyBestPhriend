@@ -1,0 +1,2665 @@
+[
+    {
+        "4": [
+            "calcium",
+            "tums",
+            "**blank**"
+        ]
+    },
+    {
+        "45": [
+            "doxepin",
+            "silenor",
+            "sinequan"
+        ]
+    },
+    {
+        "46": [
+            "prednisone",
+            "rayos",
+            "deltasone"
+        ]
+    },
+    {
+        "56": [
+            "quinidine",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "79": [
+            "glyburide",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "89": [
+            "hydroxychloroquine",
+            "plaquenil",
+            "hydroxychlor"
+        ]
+    },
+    {
+        "113": [
+            "verapamil",
+            "calan",
+            "verelan"
+        ]
+    },
+    {
+        "120": [
+            "fluoxetine",
+            "prozac",
+            "sarafem"
+        ]
+    },
+    {
+        "123": [
+            "levothyroxine",
+            "levoxyl",
+            "l-thyroxine"
+        ]
+    },
+    {
+        "127": [
+            "lisinopril-hctz",
+            "lisinopril-hct",
+            "lisinopril-hydrochlorothiazide", 
+            "zestoretic"
+        ]
+    },
+    {
+        "128": [
+            "amphetamine",
+            "dextroamphet-amphet",
+            "adderall"
+        ]
+    },
+    {
+        "138": [
+            "lisinopril",
+            "prinvil",
+            "zestril"
+        ]
+    },
+    {
+        "152": [
+            "escitalopram",
+            "lexapro",
+            "**blank**"
+        ]
+    },
+    {
+        "159": [
+            "acyclovir",
+            "zovirax",
+            "**blank**"
+        ]
+    },
+    {
+        "160": [
+            "labetalol",
+            "trandate",
+            "**blank**"
+        ]
+    },
+    {
+        "164": [
+            "nortriptyline",
+            "pamelor",
+            "**blank**"
+        ]
+    },
+    {
+        "167": [
+            "buspirone",
+            "buspar",
+            "**blank**"
+        ]
+    },
+    {
+        "169": [
+            "estradiol",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "172": [
+            "furosemide",
+            "lasix",
+            "**blank**"
+        ]
+    },
+    {
+        "173": [
+            "methylprednisolone",
+            "medrol",
+            "**blank**"
+        ]
+    },
+    {
+        "179": [
+            "tretinoin",
+            "retin-a",
+            "**blank**"
+        ]
+    },
+    {
+        "189": [
+            "ascorbic",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "190": [
+            "eplerenone",
+            "inspra",
+            "**blank**"
+        ]
+    },
+    {
+        "192": [
+            "bupropion",
+            "zyban",
+            "wellbutrin"
+        ]
+    },
+    {
+        "194": [
+            "flecainide",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "195": [
+            "metformin",
+            "glucophage",
+            "**blank**"
+        ]
+    },
+    {
+        "201": [
+            "metoprolol",
+            "toprol",
+            "lopressor"
+        ]
+    },
+    {
+        "215": [
+            "nifedipine",
+            "procardia",
+            "nifedical"
+        ]
+    },
+    {
+        "223": [
+            "etodolac"
+        ]
+    },
+    {
+        "226": [
+            "warfarin",
+            "jantoven",
+            "coumadin"
+        ]
+    },
+    {
+        "232": [
+            "brompheniramine-pseudoephedrine-dextromethorphan",
+            "bromfed-dm",
+            "**blank**"
+        ]
+    },
+    {
+        "239": [
+            "rosuvastatin",
+            "crestor",
+            "**blank**"
+        ]
+    },
+    {
+        "240": [
+            "tadalafil",
+            "cialis",
+            "**blank**"
+        ]
+    },
+    {
+        "245": [
+            "glipizide",
+            "glucotrol",
+            "**blank**"
+        ]
+    },
+    {
+        "246": [
+            "ipratropium",
+            "atrovent",
+            "**blank**"
+        ]
+    },
+    {
+        "248": [
+            "prednisolone",
+            "orapred",
+            "**blank**"
+        ]
+    },
+    {
+        "256": [
+            "zolpidem",
+            "ambien",
+            "**blank**"
+        ]
+    },
+    {
+        "259": [
+            "aripiprazole",
+            "abilify",
+            "**blank**"
+        ]
+    },
+    {
+        "263": [
+            "clobetasol",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "288": [
+            "tizanidine",
+            "zanaflex",
+            "**blank**"
+        ]
+    },
+    {
+        "297": [
+            "adalimumab",
+            "humira",
+            "**blank**"
+        ]
+    },
+    {
+        "307": [
+            "meclizine",
+            "antivert",
+            "bonine"
+        ]
+    },
+    {
+        "313": [
+            "cyclobenzaprine",
+            "flexeril",
+            "**blank**"
+        ]
+    },
+    {
+        "316": [
+            "loratadine",
+            "claritin",
+            "**blank**"
+        ]
+    },
+    {
+        "317": [
+            "mupirocin",
+            "bactroban",
+            "**blank**"
+        ]
+    },
+    {
+        "318": [
+            "hydroquinone",
+            "melquin",
+            "**blank**"
+        ]
+    },
+    {
+        "345": [
+            "acetaminophen",
+            "apap",
+            "tylenol", 
+            "acetamin"
+        ]
+    },
+    {
+        "357": [
+            "thalidomide",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "359": [
+            "tamoxifen"
+        ]
+    },
+    {
+        "366": [
+            "enoxaparin",
+            "lovenox",
+            "**blank**"
+        ]
+    },
+    {
+        "368": [
+            "isotretinoin",
+            "accutane",
+            "claravis"
+        ]
+    },
+    {
+        "369": [
+            "amiodarone",
+            "cordarone",
+            "pacerone"
+        ]
+    },
+    {
+        "395": [
+            "melatonin",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "400": [
+            "ciprofloxacin",
+            "cipro",
+            "**blank**"
+        ]
+    },
+    {
+        "402": [
+            "olmesartan-hctz",
+            "olmesartan-hct",
+            "olmesartan-hydrochlorothiazide"
+        ]
+    },
+    {
+        "406": [
+            "lorazepam",
+            "ativan",
+            "**blank**"
+        ]
+    },
+    {
+        "418": [
+            "metoclopramide",
+            "reglan",
+            "**blank**"
+        ]
+    },
+    {
+        "426": [
+            "enalapril",
+            "vasotec",
+            "**blank**"
+        ]
+    },
+    {
+        "427": [
+            "premarin"
+        ]
+    },
+    {
+        "428": [
+            "mirtazapine",
+            "remeron",
+            "**blank**"
+        ]
+    },
+    {
+        "444": [
+            "triamterene-hctz",
+            "triamterene-hydrochlorothiazide",
+            "diazide", 
+            "triamterene/hctz", 
+            "triamterene/hydrochlorothiazide"
+        ]
+    },
+    {
+        "450": [
+            "ciprofloxacin-dexamethasone",
+            "ciprodex",
+            "**blank**"
+        ]
+    },
+    {
+        "458": [
+            "cefuroxime",
+            "ceftin",
+            "**blank**"
+        ]
+    },
+    {
+        "460": [
+            "allopurinol",
+            "zyloprim",
+            "**blank**"
+        ]
+    },
+    {
+        "467": [
+            "acetaminophen-hydrocodone",
+            "norco",
+            "vicodin", 
+            "hydroco/apap", 
+            "hydrocodone/apap", 
+            "hydrocodone", 
+            "hydrocodone-acetaminophen"
+        ]
+    },
+    {
+        "469": [
+            "ibuprofen",
+            "motrin",
+            "advil"
+        ]
+    },
+    {
+        "474": [
+            "guanfacine",
+            "tenex",
+            "**blank**"
+        ]
+    },
+    {
+        "475": [
+            "tramadol",
+            "ultram",
+            "**blank**"
+        ]
+    },
+    {
+        "476": [
+            "codeine-guaifenesin",
+            "guaifenesin-codeine",
+            "robitussin-ac"
+        ]
+    },
+    {
+        "478": [
+            "mexiletine",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "486": [
+            "clonazepam",
+            "klonopin",
+            "**blank**"
+        ]
+    },
+    {
+        "487": [
+            "acetaminophen-oxycodone",
+            "percocet",
+            "oxycodone-acetaminophen"
+        ]
+    },
+    {
+        "488": [
+            "diltiazem",
+            "dilt",
+            "cardizem"
+        ]
+    },
+    {
+        "489": [
+            "oxybutynin",
+            "ditropan",
+            "**blank**"
+        ]
+    },
+    {
+        "490": [
+            "sucralfate",
+            "carafate",
+            "**blank**"
+        ]
+    },
+    {
+        "494": [
+            "naproxen",
+            "aleve",
+            "**blank**"
+        ]
+    },
+    {
+        "502": [
+            "acetaminophen-butalbital-caffeine",
+            "fioricet",
+            "**blank**"
+        ]
+    },
+    {
+        "503": [
+            "doxycycline",
+            "doryx",
+            "vibramycin"
+        ]
+    },
+    {
+        "509": [
+            "minocycline",
+            "minocin",
+            "**blank**"
+        ]
+    },
+    {
+        "519": [
+            "cyclosporine",
+            "sandimmune",
+            "**blank**"
+        ]
+    },
+    {
+        "522": [
+            "lithium",
+            "lithobid",
+            "**blank**"
+        ]
+    },
+    {
+        "529": [
+            "naltrexone",
+            "revia",
+            "vivitrol"
+        ]
+    },
+    {
+        "544": [
+            "methocarbamol",
+            "robaxin",
+            "skelaxin"
+        ]
+    },
+    {
+        "558": [
+            "paroxetine",
+            "paxil",
+            "**blank**"
+        ]
+    },
+    {
+        "559": [
+            "midodrine"
+        ]
+    },
+    {
+        "592": [
+            "alprazolam",
+            "xanax",
+            "**blank**"
+        ]
+    },
+    {
+        "596": [
+            "aspirin",
+            "asa",
+            "**blank**"
+        ]
+    },
+    {
+        "601": [
+            "carbidopa-levodopa",
+            "sinemet",
+            "**blank**"
+        ]
+    },
+    {
+        "608": [
+            "diphenhydramine",
+            "diphenhist",
+            "benadryl"
+        ]
+    },
+    {
+        "611": [
+            "famotidine",
+            "pepcid",
+            "**blank**"
+        ]
+    },
+    {
+        "613": [
+            "ferrous",
+            "iron",
+            "**blank**"
+        ]
+    },
+    {
+        "614": [
+            "folic",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "617": [
+            "hydrochlorothiazide",
+            "hctz",
+            "**blank**"
+        ]
+    },
+    {
+        "627": [
+            "nabumetone",
+            "relafen",
+            "**blank**"
+        ]
+    },
+    {
+        "634": [
+            "phentermine",
+            "fastin",
+            "adipex"
+        ]
+    },
+    {
+        "639": [
+            "torsemide",
+            "demadex",
+            "**blank**"
+        ]
+    },
+    {
+        "682": [
+            "fosinipril",
+            "monopril",
+            "**blank**"
+        ]
+    },
+    {
+        "722": [
+            "amoxicillin-clavulanate",
+            "amox-k",
+            "augmentin"
+        ]
+    },
+    {
+        "725": [
+            "metolazone",
+            "zaroxolyn",
+            "**blank**"
+        ]
+    },
+    {
+        "733": [
+            "indomethacin",
+            "indocin",
+            "tivorbex"
+        ]
+    },
+    {
+        "737": [
+            "pramipexole",
+            "mirapex",
+            "**blank**"
+        ]
+    },
+    {
+        "740": [
+            "acetaminophen-codeine",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "746": [
+            "Fluorouracil",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "751": [
+            "methotrexate",
+            "otrexup",
+            "**blank**"
+        ]
+    },
+    {
+        "775": [
+            "nitroglycerin",
+            "nitro",
+            "nitrostat"
+        ]
+    },
+    {
+        "780": [
+            "solifenacin",
+            "vesicare",
+            "**blank**"
+        ]
+    },
+    {
+        "782": [
+            "norethindrone",
+            "errin",
+            "micronor"
+        ]
+    },
+    {
+        "787": [
+            "sotalol",
+            "betapace",
+            "**blank**"
+        ]
+    },
+    {
+        "789": [
+            "bisoprolol",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "799": [
+            "guaifenesin-dm",
+            "robitussin-dm",
+            "**blank**"
+        ]
+    },
+    {
+        "803": [
+            "phendimetrazine",
+            "bontril",
+            "**blank**"
+        ]
+    },
+    {
+        "810": [
+            "excedrin",
+            "acetaminophen-aspirin-caffeine",
+            "apap-asa-caff"
+        ]
+    },
+    {
+        "812": [
+            "benazepril",
+            "lotensin",
+            "**blank**"
+        ]
+    },
+    {
+        "817": [
+            "purixan", 
+            "mercaptopurine"
+        ]
+    },
+    {
+        "832": [
+            "digoxin",
+            "digitek",
+            "lanoxin"
+        ]
+    },
+    {
+        "838": [
+            "colchicine",
+            "colcrys",
+            "mitigare"
+        ]
+    },
+    {
+        "862": [
+            "spironolactone",
+            "aldactone",
+            "**blank**"
+        ]
+    },
+    {
+        "872": [
+            "trazodone",
+            "desyrel",
+            "**blank**"
+        ]
+    },
+    {
+        "873": [
+            "amoxicillin",
+            "amoxil",
+            "**blank**"
+        ]
+    },
+    {
+        "874": [
+            "penicillin",
+            "penvk",
+            "**blank**"
+        ]
+    },
+    {
+        "880": [
+            "propafenone",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "918": [
+            "metronidazole",
+            "flagyl",
+            "**blank**"
+        ]
+    },
+    {
+        "921": [
+            "oxycodone",
+            "roxicodone",
+            "oxy", 
+            "oxycontin"
+        ]
+    },
+    {
+        "930": [
+            "cetirizine",
+            "zyrtec",
+            "**blank**"
+        ]
+    },
+    {
+        "935": [
+            "nitrofurantoin",
+            "macrobid",
+            "macrodantin"
+        ]
+    },
+    {
+        "946": [
+            "testosterone",
+            "androgel",
+            "axiron"
+        ]
+    },
+    {
+        "962": [
+            "atenolol",
+            "tenormin",
+            "**blank**"
+        ]
+    },
+    {
+        "965": [
+            "clindamycin",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "966": [
+            "sumatriptan",
+            "imitrex",
+            "**blank**"
+        ]
+    },
+    {
+        "999": [
+            "nystatin",
+            "nystop",
+            "**blank**"
+        ]
+    },
+    {
+        "1013": [
+            "celecoxib",
+            "celebrex",
+            "**blank**"
+        ]
+    },
+    {
+        "1014": [
+            "fluconazole",
+            "diflucan",
+            "**blank**"
+        ]
+    },
+    {
+        "1020": [
+            "ketorolac",
+            "toradol",
+            "**blank**"
+        ]
+    },
+    {
+        "1021": [
+            "levofloxacin",
+            "levaquin",
+            "**blank**"
+        ]
+    },
+    {
+        "1036": [
+            "sulfamethoxazole-trimethoprim",
+            "bactrim",
+            "bactrim-ds"
+        ]
+    },
+    {
+        "1043": [
+            "tobramycin",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1044": [
+            "triamcinolone",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1045": [
+            "tramadol-acetaminophen",
+            "tramadol-apap",
+            "ultracet"
+        ]
+    },
+    {
+        "1046": [
+            "azithromycin",
+            "zithromax",
+            "zpak"
+        ]
+    },
+    {
+        "1050": [
+            "clonidine",
+            "catapres",
+            "**blank**"
+        ]
+    },
+    {
+        "1053": [
+            "ketoconazole",
+            "nizoral",
+            "**blank**"
+        ]
+    },
+    {
+        "1059": [
+            "telmisartan-hydrochlorothiazide",
+            "telmisartan-hctz",
+            "micardis-hctz"
+        ]
+    },
+    {
+        "1071": [
+            "cephalexin",
+            "keflex",
+            "**blank**"
+        ]
+    },
+    {
+        "1074": [
+            "quinapril-hctz",
+            "quinapril-hydrochlorothiazide",
+            "accuretic"
+        ]
+    },
+    {
+        "1092": [
+            "ofloxacin",
+            "floxin",
+            "ocuflox"
+        ]
+    },
+    {
+        "1130": [
+            "timolol",
+            "timoptic",
+            "**blank**"
+        ]
+    },
+    {
+        "1150": [
+            "modafinil",
+            "provigil",
+            "**blank**"
+        ]
+    },
+    {
+        "1167": [
+            "desogestrel-ethinyl",
+            "apri",
+            "altavera"
+        ]
+    },
+    {
+        "1210": [
+            "promethazine",
+            "phenergan",
+            "**blank**"
+        ]
+    },
+    {
+        "1219": [
+            "indapamide",
+            "lozol",
+            "**blank**"
+        ]
+    },
+    {
+        "1246": [
+            "polyethyelene",
+            "miralax",
+            "**blank**"
+        ]
+    },
+    {
+        "1266": [
+            "baclofen",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1270": [
+            "amitriptyline",
+            "elavil",
+            "**blank**"
+        ]
+    },
+    {
+        "1277": [
+            "propranolol",
+            "inderal",
+            "**blank**"
+        ]
+    },
+    {
+        "1280": [
+            "chlorthalidone",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1281": [
+            "isosorbide",
+            "imdur",
+            "ismo"
+        ]
+    },
+    {
+        "1303": [
+            "hydroxyzine",
+            "atarax",
+            "pamelor"
+        ]
+    },
+    {
+        "1368": [
+            "gabapentin",
+            "neurontin",
+            "horizant"
+        ]
+    },
+    {
+        "1381": [
+            "chlorpheniramine",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1395": [
+            "citalopram",
+            "celexa",
+            "**blank**"
+        ]
+    },
+    {
+        "1400": [
+            "felodipine",
+            "plendil",
+            "**blank**"
+        ]
+    },
+    {
+        "1411": [
+            "fenofibrate",
+            "tricor",
+            "fenoglide"
+        ]
+    },
+    {
+        "1425": [
+            "gemfibrozil",
+            "lopid",
+            "**blank**"
+        ]
+    },
+    {
+        "1449": [
+            "eszopiclone",
+            "lunesta",
+            "**blank**"
+        ]
+    },
+    {
+        "1453": [
+            "quinapril",
+            "accupril",
+            "**blank**"
+        ]
+    },
+    {
+        "1461": [
+            "ergocalciferol",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1500": [
+            "bumetanide",
+            "bumex",
+            "**blank**"
+        ]
+    },
+    {
+        "1501": [
+            "calcitriol",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1510": [
+            "diazepam",
+            "valium",
+            "**blank**"
+        ]
+    },
+    {
+        "1511": [
+            "prazosin", 
+            "minipress"
+        ]
+    },
+    {
+        "1526": [
+            "cyproheptadine",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1527": [
+            "ethacrynic",
+            "edecrin",
+            "**blank**"
+        ]
+    },
+    {
+        "1529": [
+            "finasteride",
+            "proscar",
+            "propecia"
+        ]
+    },
+    {
+        "1537": [
+            "hydrocortisone",
+            "hydrocort",
+            "cortisone"
+        ]
+    },
+    {
+        "1543": [
+            "lovastatin",
+            "mevacor",
+            "**blank**"
+        ]
+    },
+    {
+        "1544": [
+            "simvastatin",
+            "zocor",
+            "**blank**"
+        ]
+    },
+    {
+        "1603": [
+            "medroxyprogesterone",
+            "provera",
+            "**blank**"
+        ]
+    },
+    {
+        "1625": [
+            "megace", 
+            "megestrol"
+        ]
+    },
+    {
+        "1652": [
+            "Fluocinonide",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1653": [
+            "botox",
+            "onabotulinumtoxin",
+            "botulinim"
+        ]
+    },
+    {
+        "1671": [
+            "atropine-diphenoxylate",
+            "lomotil",
+            "diphen-atropine"
+        ]
+    },
+    {
+        "1676": [
+            "disopyramide",
+            "norpace",
+            "**blank**"
+        ]
+    },
+    {
+        "1694": [
+            "morphine",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1714": [
+            "ramipril",
+            "altace",
+            "**blank**"
+        ]
+    },
+    {
+        "1718": [
+            "hydromorphone",
+            "dilaudid",
+            "**blank**"
+        ]
+    },
+    {
+        "1743": [
+            "sertraline",
+            "zoloft",
+            "**blank**"
+        ]
+    },
+    {
+        "1774": [
+            "dexamethasone",
+            "decadron",
+            "**blank**"
+        ]
+    },
+    {
+        "1809": [
+            "dicyclomine",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1823": [
+            "phenytoin",
+            "dilantin",
+            "**blank**"
+        ]
+    },
+    {
+        "1901": [
+            "epinephrine",
+            "epipen",
+            "**blank**"
+        ]
+    },
+    {
+        "1906": [
+            "valproate",
+            "valproic",
+            "**blank**"
+        ]
+    },
+    {
+        "1922": [
+            "divalproex",
+            "depakote",
+            "**blank**"
+        ]
+    },
+    {
+        "1923": [
+            "erythromycin",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "1988": [
+            "methylphenidate",
+            "metadate",
+            "ritalin"
+        ]
+    },
+    {
+        "2057": [
+            "loperamide",
+            "immodium",
+            "immodium-ad"
+        ]
+    },
+    {
+        "2100": [
+            "hydralazine",
+            "apresoline",
+            "**blank**"
+        ]
+    },
+    {
+        "2312": [
+            "klor-con"
+        ]
+    },
+    {
+        "2431": [
+            "chlorhexadine",
+            "peridex",
+            "**blank**"
+        ]
+    },
+    {
+        "2447": [
+            "doxazosin",
+            "cardura",
+            "**blank**"
+        ]
+    },
+    {
+        "2454": [
+            "amlodipine",
+            "norvasc",
+            "**blank**"
+        ]
+    },
+    {
+        "2484": [
+            "ondansetron",
+            "zofran",
+            "**blank**"
+        ]
+    },
+    {
+        "2515": [
+            "diclofenac",
+            "zipsor",
+            "zorvolex"
+        ]
+    },
+    {
+        "2553": [
+            "tacrolimus",
+            "prograf",
+            "envarsus"
+        ]
+    },
+    {
+        "2568": [
+            "guaifenesin",
+            "robitussin",
+            "**blank**"
+        ]
+    },
+    {
+        "2618": [
+            "pravastatin",
+            "pravachol",
+            "**blank**"
+        ]
+    },
+    {
+        "2621": [
+            "lansoprazole",
+            "prevacid",
+            "**blank**"
+        ]
+    },
+    {
+        "2648": [
+            "losartan",
+            "cozaar",
+            "**blank**"
+        ]
+    },
+    {
+        "2649": [
+            "dorzolamide",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "2668": [
+            "riluzole", 
+            "rilutek"
+        ]
+    },
+    {
+        "2691": [
+            "alendronate",
+            "fosamax",
+            "**blank**"
+        ]
+    },
+    {
+        "2703": [
+            "valacyclovir",
+            "valtrex",
+            "**blank**"
+        ]
+    },
+    {
+        "2725": [
+            "amlodipine-benazepril",
+            "lotrel",
+            "**blank**"
+        ]
+    },
+    {
+        "2740": [
+            "terbinafine",
+            "lamisal",
+            "**blank**"
+        ]
+    },
+    {
+        "2748": [
+            "anastrazole",
+            "arimidex",
+            "**blank**"
+        ]
+    },
+    {
+        "2752": [
+            "donepezil",
+            "aricept",
+            "**blank**"
+        ]
+    },
+    {
+        "2756": [
+            "latanoprost",
+            "xalatan",
+            "**blank**"
+        ]
+    },
+    {
+        "2760": [
+            "olanzapine",
+            "zyprexa",
+            "**blank**"
+        ]
+    },
+    {
+        "2765": [
+            "atorvastatin",
+            "lipitor",
+            "**blank**"
+        ]
+    },
+    {
+        "2777": [
+            "regular",
+            "humulin",
+            "novolin"
+        ]
+    },
+    {
+        "2778": [
+            "azelestine",
+            "astelin",
+            "**blank**"
+        ]
+    },
+    {
+        "2803": [
+            "olopatadine",
+            "pataday",
+            "patanol"
+        ]
+    },
+    {
+        "2805": [
+            "glimepiride",
+            "amaryl",
+            "**blank**"
+        ]
+    },
+    {
+        "2822": [
+            "lamotrigine",
+            "lamictal",
+            "**blank**"
+        ]
+    },
+    {
+        "2851": [
+            "carvedilol",
+            "coreg",
+            "**blank**"
+        ]
+    },
+    {
+        "2874": [
+            "mycophenolate",
+            "cellcept",
+            "myfortic"
+        ]
+    },
+    {
+        "2875": [
+            "tamsulosin",
+            "flomax",
+            "**blank**"
+        ]
+    },
+    {
+        "2883": [
+            "ropinirole",
+            "requip",
+            "**blank**"
+        ]
+    },
+    {
+        "2890": [
+            "irbesartan",
+            "avapro",
+            "**blank**"
+        ]
+    },
+    {
+        "2896": [
+            "venlafaxine",
+            "effexor",
+            "**blank**"
+        ]
+    },
+    {
+        "2902": [
+            "quetiapine",
+            "seroquel",
+            "**blank**"
+        ]
+    },
+    {
+        "2903": [
+            "clopidogrel",
+            "plavix",
+            "**blank**"
+        ]
+    },
+    {
+        "2932": [
+            "montelukast",
+            "singulair",
+            "**blank**"
+        ]
+    },
+    {
+        "2955": [
+            "liothyronine",
+            "cytomel",
+            "**blank**"
+        ]
+    },
+    {
+        "2968": [
+            "sildenafil",
+            "viagra",
+            "revatio"
+        ]
+    },
+    {
+        "2970": [
+            "risendronate",
+            "actonel",
+            "**blank**"
+        ]
+    },
+    {
+        "2976": [
+            "rizatriptan",
+            "maxalt",
+            "maxalt-mlt"
+        ]
+    },
+    {
+        "3011": [
+            "telmisartan",
+            "micardis",
+            "**blank**"
+        ]
+    },
+    {
+        "3018": [
+            "progesterone",
+            "prometrium",
+            "**blank**"
+        ]
+    },
+    {
+        "3075": [
+            "pioglitazone",
+            "actos",
+            "**blank**"
+        ]
+    },
+    {
+        "3104": [
+            "oseltamivir",
+            "tamiflu",
+            "**blank**"
+        ]
+    },
+    {
+        "3112": [
+            "oxcarbazepine",
+            "trileptal",
+            "**blank**"
+        ]
+    },
+    {
+        "3117": [
+            "tikosyn",
+            "dofetilide",
+            "**blank**"
+        ]
+    },
+    {
+        "3121": [
+            "fosinopril-hctz",
+            "monopril-hct",
+            "fosinopril-hydrochlorothiazide"
+        ]
+    },
+    {
+        "3133": [
+            "levetiracetam",
+            "keppra",
+            "**blank**"
+        ]
+    },
+    {
+        "3160": [
+            "meloxicam",
+            "mobic",
+            "**blank**"
+        ]
+    },
+    {
+        "3181": [
+            "fexofenadine",
+            "allegra",
+            "**blank**"
+        ]
+    },
+    {
+        "3189": [
+            "letrozole", 
+            "femara"
+        ]
+    },
+    {
+        "3217": [
+            "bimatoprost",
+            "lumigan",
+            "**blank**"
+        ]
+    },
+    {
+        "3226": [
+            "albuterol-ipratropium",
+            "duoneb",
+            "**blank**"
+        ]
+    },
+    {
+        "3228": [
+            "cefdinir",
+            "omnicef",
+            "**blank**"
+        ]
+    },
+    {
+        "3232": [
+            "zometa",
+            "zoledronic",
+            "**blank**"
+        ]
+    },
+    {
+        "3235": [
+            "sirolimus",
+            "rapamune",
+            "**blank**"
+        ]
+    },
+    {
+        "3240": [
+            "pantoprazole",
+            "protonix",
+            "**blank**"
+        ]
+    },
+    {
+        "3278": [
+            "valsartan",
+            "diovan",
+            "**blank**"
+        ]
+    },
+    {
+        "3319": [
+            "ezetimibe",
+            "zetia",
+            "**blank**"
+        ]
+    }, 
+    {
+        "3330": [
+            "cevimeline", 
+            "exovac"
+        ]
+    },
+    {
+        "3336": [
+            "buprenorphine",
+            "belbuca",
+            "subutex"
+        ]
+    },
+    {
+        "3353": [
+            "cetirizine-pseudoephedrine",
+            "zyrtec-d",
+            "cetirizine-d"
+        ]
+    },
+    {
+        "3371": [
+            "cyanocobalamin",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "3386": [
+            "docusate",
+            "colace",
+            "stool"
+        ]
+    },
+    {
+        "3459": [
+            "dihydroergotamine",
+            "trudhesa",
+            "migranal"
+        ]
+    },
+    {
+        "3462": [
+            "dexmethylphenidate",
+            "focalin",
+            "**blank**"
+        ]
+    },
+    {
+        "3574": [
+            "drospirenone-ethinyl",
+            "beyaz",
+            "nikki"
+        ]
+    },
+    {
+        "3579": [
+            "blisovi"
+        ]
+    },
+    {
+        "3766": [
+            "senna",
+            "sennosides",
+            "**blank**"
+        ]
+    },
+    {
+        "3767": [
+            "senna-plus",
+            "senna-s",
+            "senna-docusate"
+        ]
+    },
+    {
+        "3825": [
+            "pregabalin",
+            "lyrica",
+            "**blank**"
+        ]
+    },
+    {
+        "4033": [
+            "memantine",
+            "namenda",
+            "**blank**"
+        ]
+    },
+    {
+        "4111": [
+            "losartan-hctz",
+            "losartan-hct",
+            "losartan-hydrochlorothiazide"
+        ]
+    },
+    {
+        "4143": [
+            "mucinex", 
+            "guaifenasin"
+        ]
+    },
+    {
+        "4305": [
+            "bicarb",
+            "bicarbonate",
+            "**blank**"
+        ]
+    },
+    {
+        "4322": [
+            "pioglitazone-metformin",
+            "actoplus",
+            "**blank**"
+        ]
+    },
+    {
+        "4603": [
+            "thiamine",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "4640": [
+            "atomoxetine",
+            "strattera",
+            "**blank**"
+        ]
+    },
+    {
+        "4647": [
+            "omeprazole",
+            "prilosec",
+            "**blank**"
+        ]
+    },
+    {
+        "4651": [
+            "moxifloxacin",
+            "avelox",
+            "**blank**"
+        ]
+    },
+    {
+        "4655": [
+            "olmesartan",
+            "benicar",
+            "**blank**"
+        ]
+    },
+    {
+        "4674": [
+            "coq10", 
+            "co-enzyme", 
+            "coenzyme"
+        ]
+    },
+    {
+        "4748": [
+            "duloxetine",
+            "cymbalta",
+            "**blank**"
+        ]
+    },
+    {
+        "4780": [
+            "glargine",
+            "lantus",
+            "toujeo"
+        ]
+    },
+    {
+        "4813": [
+            "lactulose",
+            "enulose",
+            "kristalose"
+        ]
+    },
+    {
+        "5037": [
+            "dorzolamide-timolol",
+            "cosopt",
+            "**blank**"
+        ]
+    },
+    {
+        "5053": [
+            "valsartan-hydrochlorothiazide",
+            "valsartan-hctz",
+            "valsartan-hct"
+        ]
+    },
+    {
+        "5079": [
+            "detemir",
+            "levemir",
+            "**blank**"
+        ]
+    },
+    {
+        "5108": [
+            "topiramate",
+            "topamax",
+            "**blank**"
+        ]
+    },
+    {
+        "5110": [
+            "risperidone",
+            "risperdal",
+            "**blank**"
+        ]
+    },
+    {
+        "5135": [
+            "loratadine-d",
+            "claritin-d",
+            "**blank**"
+        ]
+    },
+    {
+        "5206": [
+            "cholestyramine", 
+            "prevalite", 
+            "questran"
+        ]
+    },
+    {
+        "5347": [
+            "eletriptan",
+            "relpax",
+            "**blank**"
+        ]
+    },
+    {
+        "5859": [
+            "revlimid",
+            "lenalidomide",
+            "**blank**"
+        ]
+    },
+    {
+        "5932": [
+            "sitagliptin-metformin",
+            "janumet",
+            "**blank**"
+        ]
+    },
+    {
+        "6027": [
+            "lisdexamfetamine",
+            "vyvanse",
+            "**blank**"
+        ]
+    },
+    {
+        "6245": [
+            "aspart",
+            "novolog",
+            "fiasp"
+        ]
+    },
+    {
+        "6245": [
+            "lispro",
+            "humalog",
+            "admelog"
+        ]
+    },
+    {
+        "6259": [
+            "ranolazine",
+            "ranexa",
+            "**blank**"
+        ]
+    },
+    {
+        "6287": [
+            "levocetirizine",
+            "xyzal",
+            "**blank**"
+        ]
+    },
+    {
+        "6349": [
+            "pancrelipase",
+            "creon",
+            "pancreaze"
+        ]
+    },
+    {
+        "6364": [
+            "sevelamer",
+            "renvela",
+            "renagel"
+        ]
+    },
+    {
+        "6370": [
+            "nebivolol",
+            "bystolic",
+            "**blank**"
+        ]
+    },
+    {
+        "6630": [
+            "ketotifen",
+            "zaditor",
+            "**blank**"
+        ]
+    },
+    {
+        "6781": [
+            "dexlansoprazole",
+            "dexilant",
+            "**blank**"
+        ]
+    },
+    {
+        "6801": [
+            "febuxostat",
+            "uloric",
+            "**blank**"
+        ]
+    },
+    {
+        "6860": [
+            "vimpat", 
+            "lacosamide"
+        ]
+    },
+    {
+        "6911": [
+            "cholecalciferol",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "6997": [
+            "multaq",
+            "dronedarone",
+            "**blank**"
+        ]
+    },
+    {
+        "6998": [
+            "prasugrel", 
+            "effient"
+        ]
+    },
+    {
+        "7012": [
+            "saxagliptin",
+            "onglyza",
+            "**blank**"
+        ]
+    },
+    {
+        "7063": [
+            "flouride",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "7236": [
+            "liraglutide",
+            "vitctoza",
+            "saxenda"
+        ]
+    },
+    {
+        "7334": [
+            "benzonatate",
+            "tessalon",
+            "**blank**"
+        ]
+    },
+    {
+        "7523": [
+            "potassium",
+            "klor",
+            "k-dur"
+        ]
+    },
+    {
+        "7530": [
+            "suboxone",
+            "zubsolv",
+            "buprenorphine-naloxone"
+        ]
+    },
+    {
+        "7583": [
+            "pradaxa",
+            "dabigatran",
+            "**blank**"
+        ]
+    },
+    {
+        "7597": [
+            "dextromethorphan-quinidine",
+            "nuedexta",
+            "**blank**"
+        ]
+    },
+    {
+        "7731": [
+            "linagliptin",
+            "tradjenta",
+            "**blank**"
+        ]
+    },
+    {
+        "7786": [
+            "ciclopirox",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "7822": [
+            "rivaroxaban",
+            "xarelto",
+            "**blank**"
+        ]
+    },
+    {
+        "7855": [
+            "ticagrelor",
+            "brilinta",
+            "**blank**"
+        ]
+    },
+    {
+        "8452": [
+            "poly-iron"
+        ]
+    },
+    {
+        "8550": [
+            "lidocaine",
+            "xylocaine",
+            "**blank**"
+        ]
+    },
+    {
+        "8641": [
+            "azelastine-fluticasone",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "8703": [
+            "mirabegron",
+            "myrbetriq",
+            "**blank**"
+        ]
+    },
+    {
+        "8725": [
+            "icosapent",
+            "lovaza",
+            "**blank**"
+        ]
+    },
+    {
+        "9073": [
+            "linaclotide",
+            "linzess",
+            "**blank**"
+        ]
+    },
+    {
+        "9262": [
+            "apixaban",
+            "eliquis",
+            "**blank**"
+        ]
+    },
+    {
+        "9422": [
+            "invokanna",
+            "canaglifllozin",
+            "**blank**"
+        ]
+    },
+    {
+        "9440": [
+            "desvenlafaxine",
+            "pristiq",
+            "**blank**"
+        ]
+    },
+    {
+        "9791": [
+            "fetzima"
+        ]
+    },
+    {
+        "9918": [
+            "fluticasone-vilanterol",
+            "breo",
+            "**blank**"
+        ]
+    },
+    {
+        "10016": [
+            "umeclidinium-vilanterol",
+            "vilanterol-umeclidinium",
+            "anoro"
+        ]
+    },
+    {
+        "10030": [
+            "dapagliflozin",
+            "farxiga",
+            "**blank**"
+        ]
+    },
+    {
+        "10243": [
+            "empagliflozin",
+            "jardiance",
+            "**blank**"
+        ]
+    },
+    {
+        "10250": [
+            "invokamet",
+            "canagliflozin-metformin",
+            "**blank**"
+        ]
+    },
+    {
+        "10291": [
+            "movantik", 
+            "naloxegol"
+        ]
+    },
+    {
+        "10296": [
+            "dulaglutide",
+            "trulicity",
+            "**blank**"
+        ]
+    },
+    {
+        "10308": [
+            "tiotropium",
+            "spiriva",
+            "**blank**"
+        ]
+    },
+    {
+        "10351": [
+            "xigduo", 
+            "dapagliflozin-metformin", 
+            "dapagliflozin/metformin"
+        ]
+    },
+    {
+        "10586": [
+            "fluticasone",
+            "flonase",
+            "**blank**"
+        ]
+    },
+    {
+        "10663": [
+            "ivabradine",
+            "corlanor",
+            "**blank**"
+        ]
+    },
+    {
+        "10714": [
+            "stiolto",
+            "tiotropium-olodaterol",
+            "**blank**"
+        ]
+    },
+    {
+        "10824": [
+            "sacubitril",
+            "entresto",
+            "sacubitril-valsartan"
+        ]
+    },
+    {
+        "10831": [
+            "dexamethasone-neomycin",
+            "neopolydex",
+            "neo-poly-dex"
+        ]
+    },
+    {
+        "10864": [
+            "praluent",
+            "alirocumab",
+            "**blank**"
+        ]
+    },
+    {
+        "10897": [
+            "synjardy",
+            "empagliflozin-metformin",
+            "**blank**"
+        ]
+    },
+    {
+        "10898": [
+            "repatha",
+            "evolocumab",
+            "**blank**"
+        ]
+    },
+    {
+        "10929": [
+            "degludec",
+            "tresiba",
+            "**blank**"
+        ]
+    },
+    {
+        "10937": [
+            "omega-3",
+            "fish",
+            "omega3"
+        ]
+    },
+    {
+        "11029": [
+            "naloxone",
+            "narcan",
+            "**blank**"
+        ]
+    },
+    {
+        "11220": [
+            "multivitamin", 
+            "multi-vitamin", 
+            "mvi"
+        ]
+    },
+    {
+        "11422": [
+            "albuterol",
+            "ventolin",
+            "proair"
+        ]
+    },
+    {
+        "11053": [
+            "veltassa", 
+            "patiromer"
+        ]
+    },
+    {
+        "11673": [
+            "fluticasone-almeterol",
+            "advair",
+            "wixela"
+        ]
+    },
+    {
+        "11875": [
+            "krill"
+        ]
+    },
+    {
+        "11926": [
+            "dupixent",
+            "dupilumab",
+            "**blank**"
+        ]
+    },
+    {
+        "12077": [
+            "fluticasone-umeclidinium-vilanterol",
+            "trelegy",
+            "**blank**"
+        ]
+    },
+    {
+        "12116": [
+            "magnesium",
+            "mag",
+            "magox"
+        ]
+    },
+    {
+        "12167": [
+            "steglatro",
+            "ertugliflozin",
+            "**blank**"
+        ]
+    },
+    {
+        "12183": [
+            "thyroid",
+            "npthyroid",
+            "**blank**"
+        ]
+    },
+    {
+        "12305": [
+            "aimovig",
+            "erenumab",
+            "**blank**"
+        ]
+    },
+    {
+        "12312": [
+            "livalo",
+            "pitavastatin",
+            "**blank**"
+        ]
+    },
+    {
+        "12403": [
+            "ajovy",
+            "fremanezumab",
+            "**blank**"
+        ]
+    },
+    {
+        "12414": [
+            "emgality",
+            "galcanezumab",
+            "**blank**"
+        ]
+    },
+    {
+        "12444": [
+            "zinc",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "12834": [
+            "glucosamine-chondroitin"
+        ]
+    },
+    {
+        "12942": [
+            "promethazine-dm",
+            "promethazine-dextromethorphan",
+            "phenergan-dm"
+        ]
+    },
+    {
+        "13039": [
+            "semaglutide",
+            "wegovy",
+            "ozempic", 
+            "rybelsus"
+        ]
+    },
+    {
+        "13075": [
+            "lasmiditan",
+            "reyvow",
+            "**blank**"
+        ]
+    },
+    {
+        "13260": [
+            "ubrelvy",
+            "ubrogepant",
+            "**blank**"
+        ]
+    },
+    {
+        "13535": [
+            "nexletol",
+            "bempedoic",
+            "**blank**"
+        ]
+    },
+    {
+        "13595": [
+            "nurtec",
+            "rimegepant",
+            "nurtecodt"
+        ]
+    },
+    {
+        "13601": [
+            "nexlizet",
+            "acid-ezetimibe",
+            "**blank**"
+        ]
+    },
+    {
+        "14205": [
+            "budesonide",
+            "entocort",
+            "**blank**"
+        ]
+    },
+    {
+        "14557": [
+            "gemtesa"
+        ]
+    },
+    {
+        "14594": [
+            "verquvo",
+            "vericiguat",
+            "**blank**"
+        ]
+    },
+    {
+        "14663": [
+            "evkeeza",
+            "evinacumab",
+            "**blank**"
+        ]
+    },
+    {
+        "14878": [
+            "budesonide-formoterol",
+            "symbicort",
+            "budesonide/formoterol"
+        ]
+    },
+    {
+        "15076": [
+            "atogepant",
+            "qulipta",
+            "**blank**"
+        ]
+    },
+    {
+        "15080": [
+            "esomeprazole",
+            "nexium",
+            "**blank**"
+        ]
+    },
+    {
+        "15141": [
+            "nirmatrelvir-ritonavir",
+            "paxlovid",
+            "**blank**"
+        ]
+    },
+    {
+        "15142": [
+            "leqvio",
+            "inclisiran",
+            "**blank**"
+        ]
+    },
+    {
+        "15302": [
+            "mounjaro",
+            "tirzepatide",
+            "zepbound"
+        ]
+    },
+    {
+        "15621": [
+            "reclast"
+        ]
+    },
+    {
+        "15598": [
+            "brimonidine",
+            "alphagan",
+            "**blank**"
+        ]
+    },
+    {
+        "16052": [
+            "sitagliptin",
+            "januvia",
+            "**blank**"
+        ]
+    }
+]
