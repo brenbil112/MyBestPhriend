@@ -53,6 +53,44 @@
     margin: auto;
     background-color: #fff;
   }
+
+  /* Button Section */
+.button-section {
+    text-align: center;
+  }
+  
+  .button-section h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Flexbox Grid */
+  .button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  /* Large Buttons */
+  .big-button {
+    flex: 1 1 200px;        /* responsive width */
+    max-width: 250px;
+    padding: 2rem 1rem;
+    background-color: #0077cc;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  /* Hover / Tap Effect */
+  .big-button:hover {
+    background-color: #005fa3;
+    transform: translateY(-5px);
+  }
+  
   
   /* Footer */
   .site-footer {
