@@ -4,6 +4,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const submitButton = document.getElementById('submit-button');
     const matchList = document.getElementById('match-list');
     const clinicalKeyLink = document.getElementById('clinical-key-link');
+
+    async function loadJson(path) {
+      const response = await fetch(path);
+
+      if (!response.ok) {
+        throw new Error(`Unable to load ${path} (${response.status})`);
+      }
+
+      return response.json();
+    }
   
     clinicalKeyLink.style.display = 'none';
   
@@ -21,8 +31,12 @@ document.addEventListener('DOMContentLoaded', function () {
         .filter(w => /^[a-z]/.test(w) && w.length >= 3);
   
       try {
-        const stopWords = await fetch('../json/stop_words.json').then(r => r.json());
-        const drugList = await fetch('../json/drug_list.json').then(r => r.json());
+        const stopWords = await loadJson('json/stop_words.json');
+        const drugList = await loadJson('json/drug_list.json');
+
+        if (!Array.isArray(stopWords) || !Array.isArray(drugList)) {
+          throw new Error('Lookup data has an unexpected format');
+        }
   
         const finalWords = words.filter(w => !stopWords.includes(w));
   
@@ -60,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
       } catch (err) {
         console.error(err);
-        alert('Error processing drug list');
+        matchList.innerHTML = '<li class="error-message">Lookup data could not be loaded. Please try again.</li>';
       }
   
       submitButton.disabled = false;
