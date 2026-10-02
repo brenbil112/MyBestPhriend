@@ -109,6 +109,56 @@ body::before {
   max-width: 900px;
 }
 
+.page-content {
+  display: block;
+  max-width: 960px;
+  min-height: 48vh;
+}
+
+.page-content section > h1,
+.page-content section > h2 {
+  margin: 0 0 1rem;
+  color: var(--ink);
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+}
+
+.page-content section > h2:not(:first-child) {
+  margin-top: 2.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  font-size: 1.55rem;
+}
+
+.page-content section > h3 {
+  margin: 2rem 0 .5rem;
+  color: var(--teal-dark);
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1.2rem;
+}
+
+.page-content section > p {
+  margin: .75rem 0 1.25rem;
+  color: var(--muted);
+}
+
+.page-content section > ul {
+  display: grid;
+  gap: .7rem;
+  margin: 1rem 0 1.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+.page-content section > ul li {
+  padding: .75rem 1rem;
+  border-left: 3px solid var(--teal);
+  background: rgba(255, 255, 255, .82);
+}
+
+.policy-copy {
+  white-space: pre-line;
+}
+
 h1, h2 {
   font-family: 'Space Grotesk', sans-serif;
   line-height: 1.1;
@@ -230,9 +280,70 @@ a:hover { color: var(--coral); }
 
 .site-footer span { margin-left: .75rem; color: #789995; }
 
+.oncology-content {
+  max-width: 1120px;
+}
+
+.oncology-content section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 1.5rem;
+}
+
+.oncology-content section > h1,
+.oncology-content section > h2,
+.oncology-content section > p {
+  grid-column: 1 / -1;
+}
+
+.oncology-content section > h1:not(:first-child) {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--line);
+}
+
+.oncology-content article {
+  align-self: start;
+  margin: .5rem 0 1rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-top: 4px solid var(--teal);
+  background: var(--panel);
+}
+
+.oncology-content article h2 {
+  margin-bottom: 1rem;
+  color: var(--teal-dark);
+  font-size: 1.4rem;
+}
+
+.oncology-content article h3 {
+  margin: 1.2rem 0 .25rem;
+  color: var(--ink);
+  font-size: .9rem;
+}
+
+.oncology-content article p,
+.oncology-content article ul {
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+.oncology-content article ul {
+  padding-left: 1.2rem;
+}
+
+.oncology-content article li + li {
+  margin-top: .35rem;
+}
+
 @media (max-width: 760px) {
   .content { grid-template-columns: 1fr; }
   .assistant-panel { box-shadow: 7px 7px 0 var(--mint); }
+  .oncology-content section { grid-template-columns: 1fr; }
+  .oncology-content section > h1,
+  .oncology-content section > h2,
+  .oncology-content section > p { grid-column: 1; }
 }
 
 @media (max-width: 480px) {
