@@ -259,8 +259,18 @@ a:hover { color: var(--coral); }
   border-color: var(--teal);
 }
 
-#submit-button {
+.assistant-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: .65rem;
   margin-top: 1rem;
+}
+
+.assistant-actions > * { flex: 0 0 auto; }
+
+#submit-button,
+#reset-button {
   padding: .8rem 1.35rem;
   border: 0;
   border-radius: 2px;
@@ -272,9 +282,12 @@ a:hover { color: var(--coral); }
 }
 
 #submit-button:hover,
-#submit-button:focus-visible { background: var(--teal-dark); }
+#submit-button:focus-visible,
+#reset-button:hover,
+#reset-button:focus-visible { background: var(--teal-dark); }
 
-#submit-button:disabled { cursor: wait; opacity: .7; }
+#submit-button:disabled,
+#reset-button:disabled { cursor: wait; opacity: .7; }
 
 #match-list {
   display: grid;
@@ -283,8 +296,31 @@ a:hover { color: var(--coral); }
   padding-left: 1.2rem;
 }
 
-#clinical-key-link {
+#clinical-key-link.report-button:not([hidden]) {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0;
+  padding: .8rem 1.1rem;
+  border: 0;
+  border-radius: 2px;
+  color: var(--ink);
+  background: var(--coral);
   font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color .15s ease;
+}
+
+#clinical-key-link.report-button:hover,
+#clinical-key-link.report-button:focus-visible {
+  color: var(--ink);
+  background: #e97c59;
+}
+
+#clinical-key-link.report-button:focus-visible {
+  outline: 3px solid rgba(8, 127, 115, .25);
+  outline-offset: 3px;
 }
 
 .site-footer {

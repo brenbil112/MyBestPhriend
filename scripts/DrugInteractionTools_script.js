@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const inputBox = document.getElementById('input-box');
     const submitButton = document.getElementById('submit-button');
+    const resetButton = document.getElementById('reset-button');
     const matchList = document.getElementById('match-list');
     const clinicalKeyLink = document.getElementById('clinical-key-link');
 
@@ -14,14 +15,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
       return response.json();
     }
-  
-    clinicalKeyLink.style.display = 'none';
+
+    resetButton.addEventListener('click', function () {
+      inputBox.value = '';
+      matchList.innerHTML = '';
+      clinicalKeyLink.hidden = true;
+      clinicalKeyLink.href = '#';
+      inputBox.focus();
+    });
   
     submitButton.addEventListener('click', async function () {
       submitButton.disabled = true;
+      resetButton.disabled = true;
       submitButton.textContent = 'Submitting...';
   
       matchList.innerHTML = '';
+      clinicalKeyLink.hidden = true;
   
       const userInput = inputBox.value;
       const cleaned = userInput.replace(/,/g, "");
@@ -54,6 +63,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (matches.length === 0) {
           matchList.innerHTML = '<li>No matches found.</li>';
           submitButton.disabled = false;
+          resetButton.disabled = false;
           submitButton.textContent = 'Submit';
           return;
         }
@@ -69,8 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
           matches.map(m => `gpcid=${m.number}`).join('&');
   
         clinicalKeyLink.href = clinicalKeyUrl;
-        clinicalKeyLink.style.display = 'block';
-        clinicalKeyLink.target = '_blank';
+        clinicalKeyLink.hidden = false;
   
       } catch (err) {
         console.error(err);
@@ -78,6 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
       }
   
       submitButton.disabled = false;
+      resetButton.disabled = false;
       submitButton.textContent = 'Submit';
     });
   });

@@ -30,9 +30,12 @@
         <h2>Drug Interaction Assistant</h2>
         <p class="panel-intro">Enter medication list to load the linked interaction report in a new browser tab</p>
         <textarea id="input-box" placeholder="Copy + paste or enter drug list here..."></textarea>
-        <button id="submit-button">Submit</button>
+        <div class="assistant-actions">
+          <button id="submit-button" type="button">Submit</button>
+          <button id="reset-button" type="button">Reset</button>
+          <a id="clinical-key-link" class="report-button" href="#" target="_blank" rel="noopener noreferrer" hidden>Open drug interaction report</a>
+        </div>
         <ul id="match-list"></ul>
-        <a id="clinical-key-link" href="#">Click here to open a new tab with drug interactions report</a>
       </div>
 
     </main>
