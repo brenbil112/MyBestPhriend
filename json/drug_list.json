@@ -279,6 +279,27 @@
         ]
     },
     {
+        "295": [
+            "daptomycin",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
+        "292": [
+            "diltiazem-hctz",
+            "diltiazem-hydrochlorothiazide",
+            "**blank**"
+        ]
+    },
+    {
+        "293": [
+            "clotrimazole",
+            "**blank**",
+            "**blank**"
+        ]
+    },
+    {
         "297": [
             "adalimumab",
             "humira",
@@ -1717,7 +1738,7 @@
         ]
     },
     {
-        "3189": [
+        "3198": [
             "letrozole", 
             "femara"
         ]
@@ -2287,6 +2308,13 @@
         ]
     },
     {
+        "10002": [
+            "posaconazole",
+            "noxafil",
+            "**blank**"
+        ]
+    },
+    {
         "10016": [
             "umeclidinium-vilanterol",
             "vilanterol-umeclidinium",
@@ -2366,7 +2394,8 @@
         "10824": [
             "sacubitril",
             "entresto",
-            "sacubitril-valsartan"
+            "sacubitril-valsartan", 
+            "sacubitril/valsartan"
         ]
     },
     {
@@ -2661,5 +2690,20 @@
             "januvia",
             "**blank**"
         ]
+    }, 
+    {
+        "16212": [
+            "rezdiffra",
+            "resmetirom",
+            "**blank**"
+        ]
+    },
+    {
+        "16812": [
+            "journavx",
+            "suzetrigine", 
+            "**blank**" 
+        ]
     }
+
 ]
