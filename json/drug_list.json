@@ -827,8 +827,8 @@
     },
     {
         "746": [
-            "Fluorouracil",
-            "**blank**",
+            "fluorouracil",
+            "5fu",
             "**blank**"
         ]
     },
@@ -1255,7 +1255,7 @@
         "1303": [
             "hydroxyzine",
             "atarax",
-            "pamelor"
+            "vistaril"
         ]
     },
     {
@@ -2545,8 +2545,7 @@
     },
     {
         "6460": [
-            "patanase",
-            "olopatadine"
+            "patanase"
         ]
     },
     {
@@ -3153,8 +3152,8 @@
     },
     {
         "12224": [
-            "ARED",
-            "AREDS",
+            "ared",
+            "areds",
             "preservision"
         ]
     },
