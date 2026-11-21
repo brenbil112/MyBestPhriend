@@ -1,0 +1,80 @@
+[
+  {
+    "program": "Pfizer RxPathways",
+    "manufacturer": "Pfizer",
+    "url": "https://www.pfizerrxpathways.com/",
+    "matches": ["ibrance", "palbociclib", "paxlovid", "nirmatrelvir-ritonavir", "premarin", "nurtec", "nurtecodt", "rimegepant", "velsipity", "etrasimod"]
+  },
+  {
+    "program": "Bristol Myers Squibb Patient Assistance Foundation",
+    "manufacturer": "Bristol Myers Squibb",
+    "url": "https://www.bmspaf.org/",
+    "matches": ["eliquis", "apixaban", "pomalyst", "pomalidomide", "revlimid"]
+  },
+  {
+    "program": "Lilly Cares Foundation",
+    "manufacturer": "Eli Lilly",
+    "url": "https://www.lillycares.com/",
+    "matches": ["trulicity", "dulaglutide", "mounjaro", "zepbound", "tirzepatide", "emgality", "galcanezumab", "verzenio", "abemaciclib", "humalog", "humulin", "reyvow", "lasmiditan"]
+  },
+  {
+    "program": "NovoCare Patient Assistance Program",
+    "manufacturer": "Novo Nordisk",
+    "url": "https://www.novocare.com/diabetes/help-with-costs/pap.html",
+    "matches": ["ozempic", "wegovy", "rybelsus", "semaglutide", "victoza", "saxenda", "novolog", "fiasp", "tresiba", "degludec", "novolin", "levemir", "norditropin"]
+  },
+  {
+    "program": "AZ&Me Prescription Savings Program",
+    "manufacturer": "AstraZeneca",
+    "url": "https://www.azandmeapp.com/",
+    "matches": ["farxiga", "xigduo", "brilinta", "symbicort", "breztri", "saphnelo", "anifrolumab"]
+  },
+  {
+    "program": "Merck Patient Assistance Program",
+    "manufacturer": "Merck",
+    "url": "https://www.merckhelps.com/",
+    "matches": ["januvia", "janumet", "keytruda", "pembrolizumab", "belsomra", "suvorexant", "steglatro", "ertugliflozin", "verquvo", "vericiguat"]
+  },
+  {
+    "program": "Boehringer Ingelheim Cares Foundation",
+    "manufacturer": "Boehringer Ingelheim",
+    "url": "https://www.bipatientassistance.com/",
+    "matches": ["jardiance", "empagliflozin", "synjardy", "empagliflozin-metformin", "tradjenta", "linagliptin", "spiriva", "stiolto", "tiotropium-olodaterol", "pradaxa"]
+  },
+  {
+    "program": "GSK Patient Assistance Program",
+    "manufacturer": "GSK",
+    "url": "https://gskforyou.com/",
+    "matches": ["trelegy", "fluticasone-umeclidinium-vilanterol", "breo", "fluticasone-vilanterol", "anoro", "umeclidinium-vilanterol", "vilanterol-umeclidinium", "nucala", "mepolizumab", "advair", "ventolin"]
+  },
+  {
+    "program": "Sanofi Patient Connection",
+    "manufacturer": "Sanofi",
+    "url": "https://www.sanofipatientconnection.com/",
+    "matches": ["lantus", "toujeo", "admelog"]
+  },
+  {
+    "program": "myAbbVie Assist",
+    "manufacturer": "AbbVie",
+    "url": "https://www.abbvie.com/patients/patient-support/patient-assistance.html",
+    "matches": ["humira", "ubrelvy", "ubrogepant", "qulipta", "atogepant", "vraylar", "cariprazine", "linzess", "linaclotide", "venclexta", "venetoclex", "creon", "synthroid", "orilissa", "elagolix", "restasis"]
+  },
+  {
+    "program": "Amgen Safety Net Foundation",
+    "manufacturer": "Amgen",
+    "url": "https://www.amgensafetynetfoundation.com/",
+    "matches": ["repatha", "evolocumab", "prolia", "xgeva", "aimovig", "erenumab", "otezla", "apremilast", "nplate", "romiplostim", "tezspire", "tezepelumab", "neulasta"]
+  },
+  {
+    "program": "Novartis Patient Assistance",
+    "manufacturer": "Novartis",
+    "url": "https://www.novartis.com/us-en/patients-and-caregivers/patient-assistance",
+    "matches": ["entresto", "cosentyx", "secukinumab", "leqvio", "inclisiran"]
+  },
+  {
+    "program": "Genentech Patient Foundation",
+    "manufacturer": "Genentech",
+    "url": "https://www.gene.com/patients/patient-foundation",
+    "matches": ["xolair", "omalizumab", "avastin", "rituxan", "hemlibra", "emicizumab"]
+  }
+]

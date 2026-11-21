@@ -5,50 +5,68 @@ document.addEventListener('DOMContentLoaded', function () {
     const resetButton = document.getElementById('reset-button');
     const matchList = document.getElementById('match-list');
     const clinicalKeyLink = document.getElementById('clinical-key-link');
-    const savingsPanel = document.getElementById('savings-panel');
-    const savingsList = document.getElementById('savings-list');
+    // Program boxes shown under the results. Each reads a JSON file of
+    // programs whose "matches" lists the drug names that trigger it.
+    const programPanels = [
+      {
+        panel: document.getElementById('savings-panel'),
+        list: document.getElementById('savings-list'),
+        path: 'json/savings_programs.json',
+        label: p => `${p.drug} savings program`
+      },
+      {
+        panel: document.getElementById('assistance-panel'),
+        list: document.getElementById('assistance-list'),
+        path: 'json/patient_assistance.json',
+        label: p => p.program
+      }
+    ];
 
-    function clearSavings() {
-      savingsList.innerHTML = '';
-      savingsPanel.hidden = true;
+    function clearPrograms() {
+      programPanels.forEach(({ panel, list }) => {
+        list.innerHTML = '';
+        panel.hidden = true;
+      });
     }
 
-    // Savings links are an extra: if the file fails to load, the
-    // interaction report still works and the section stays hidden.
-    async function showSavings(matchedWords) {
-      clearSavings();
+    // These boxes are extras: if a file fails to load, the interaction
+    // report still works and that box stays hidden.
+    async function showPrograms(matchedWords) {
+      clearPrograms();
 
-      let programs;
-      try {
-        programs = await loadJson('json/savings_programs.json');
-      } catch (err) {
-        console.error(err);
-        return;
-      }
-      if (!Array.isArray(programs)) return;
-
-      const found = programs.filter(p =>
-        Array.isArray(p.matches) && p.matches.some(m => matchedWords.has(m))
-      );
-      if (found.length === 0) return;
-
-      found.forEach(p => {
-        const li = document.createElement('li');
-        const a = document.createElement('a');
-        a.href = p.url;
-        a.target = '_blank';
-        a.rel = 'noopener noreferrer';
-        a.textContent = `${p.drug} savings program`;
-        li.appendChild(a);
-        if (p.manufacturer) {
-          const span = document.createElement('span');
-          span.className = 'savings-manufacturer';
-          span.textContent = p.manufacturer;
-          li.appendChild(span);
+      await Promise.all(programPanels.map(async ({ panel, list, path, label }) => {
+        let programs;
+        try {
+          programs = await loadJson(path);
+        } catch (err) {
+          console.error(err);
+          return;
         }
-        savingsList.appendChild(li);
-      });
-      savingsPanel.hidden = false;
+        if (!Array.isArray(programs)) return;
+
+        const found = programs.filter(p =>
+          Array.isArray(p.matches) && p.matches.some(m => matchedWords.has(m))
+        );
+        if (found.length === 0) return;
+
+        found.forEach(p => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = p.url;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          a.textContent = label(p);
+          li.appendChild(a);
+          if (p.manufacturer) {
+            const span = document.createElement('span');
+            span.className = 'savings-manufacturer';
+            span.textContent = p.manufacturer;
+            li.appendChild(span);
+          }
+          list.appendChild(li);
+        });
+        panel.hidden = false;
+      }));
     }
 
     async function loadJson(path) {
@@ -66,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function () {
       matchList.innerHTML = '';
       clinicalKeyLink.hidden = true;
       clinicalKeyLink.href = '#';
-      clearSavings();
+      clearPrograms();
       inputBox.focus();
     });
   
@@ -77,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function () {
   
       matchList.innerHTML = '';
       clinicalKeyLink.hidden = true;
-      clearSavings();
+      clearPrograms();
 
       const userInput = inputBox.value;
       const cleaned = userInput.replace(/,/g, "");
@@ -117,7 +135,18 @@ document.addEventListener('DOMContentLoaded', function () {
   
         matches.forEach(match => {
           const li = document.createElement('li');
-          li.textContent = match.word;
+          li.appendChild(document.createTextNode(match.word));
+
+          const label = document.createElement('a');
+          label.className = 'label-link';
+          label.href = 'https://dailymed.nlm.nih.gov/dailymed/search.cfm?labeltype=all&query=' +
+            encodeURIComponent(match.word);
+          label.target = '_blank';
+          label.rel = 'noopener noreferrer';
+          label.textContent = 'FDA label';
+          label.title = `Search DailyMed for the ${match.word} prescribing information`;
+          li.appendChild(label);
+
           matchList.appendChild(li);
         });
   
@@ -128,7 +157,7 @@ document.addEventListener('DOMContentLoaded', function () {
         clinicalKeyLink.href = clinicalKeyUrl;
         clinicalKeyLink.hidden = false;
 
-        await showSavings(new Set(matches.map(m => m.word)));
+        await showPrograms(new Set(matches.map(m => m.word)));
 
       } catch (err) {
         console.error(err);
