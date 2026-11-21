@@ -18,9 +18,14 @@ document.addEventListener('DOMContentLoaded', function () {
         panel: document.getElementById('assistance-panel'),
         list: document.getElementById('assistance-list'),
         path: 'json/patient_assistance.json',
-        label: p => p.program
+        // e.g. "Eliquis – Bristol Myers Squibb Patient Assistance Foundation"
+        label: (p, hits) => `${hits.map(capitalize).join(', ')} – ${p.program}`
       }
     ];
+
+    function capitalize(word) {
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    }
 
     function clearPrograms() {
       programPanels.forEach(({ panel, list }) => {
@@ -55,7 +60,8 @@ document.addEventListener('DOMContentLoaded', function () {
           a.href = p.url;
           a.target = '_blank';
           a.rel = 'noopener noreferrer';
-          a.textContent = label(p);
+          const hits = p.matches.filter(m => matchedWords.has(m));
+          a.textContent = label(p, hits);
           li.appendChild(a);
           if (p.manufacturer) {
             const span = document.createElement('span');
