@@ -323,6 +323,43 @@ a:hover { color: var(--coral); }
   outline-offset: 3px;
 }
 
+.savings-panel {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--teal);
+  border-radius: 2px;
+  background: var(--mint);
+}
+
+.savings-panel h3 {
+  margin-bottom: .25rem;
+  font-size: 1rem;
+}
+
+.savings-note {
+  margin-bottom: .75rem;
+  color: var(--muted);
+  font-size: .85rem;
+}
+
+#savings-list {
+  display: grid;
+  gap: .5rem;
+  list-style: none;
+}
+
+#savings-list a {
+  color: var(--teal-dark);
+  font-weight: 700;
+}
+
+.savings-manufacturer {
+  margin-left: .5rem;
+  color: var(--muted);
+  font-size: .85rem;
+}
+
 .site-footer {
   padding: 1.5rem;
   color: #b9d4ce;

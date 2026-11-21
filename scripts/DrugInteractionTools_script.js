@@ -5,6 +5,51 @@ document.addEventListener('DOMContentLoaded', function () {
     const resetButton = document.getElementById('reset-button');
     const matchList = document.getElementById('match-list');
     const clinicalKeyLink = document.getElementById('clinical-key-link');
+    const savingsPanel = document.getElementById('savings-panel');
+    const savingsList = document.getElementById('savings-list');
+
+    function clearSavings() {
+      savingsList.innerHTML = '';
+      savingsPanel.hidden = true;
+    }
+
+    // Savings links are an extra: if the file fails to load, the
+    // interaction report still works and the section stays hidden.
+    async function showSavings(matchedWords) {
+      clearSavings();
+
+      let programs;
+      try {
+        programs = await loadJson('json/savings_programs.json');
+      } catch (err) {
+        console.error(err);
+        return;
+      }
+      if (!Array.isArray(programs)) return;
+
+      const found = programs.filter(p =>
+        Array.isArray(p.matches) && p.matches.some(m => matchedWords.has(m))
+      );
+      if (found.length === 0) return;
+
+      found.forEach(p => {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = p.url;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        a.textContent = `${p.drug} savings program`;
+        li.appendChild(a);
+        if (p.manufacturer) {
+          const span = document.createElement('span');
+          span.className = 'savings-manufacturer';
+          span.textContent = p.manufacturer;
+          li.appendChild(span);
+        }
+        savingsList.appendChild(li);
+      });
+      savingsPanel.hidden = false;
+    }
 
     async function loadJson(path) {
       const response = await fetch(path);
@@ -21,6 +66,7 @@ document.addEventListener('DOMContentLoaded', function () {
       matchList.innerHTML = '';
       clinicalKeyLink.hidden = true;
       clinicalKeyLink.href = '#';
+      clearSavings();
       inputBox.focus();
     });
   
@@ -31,7 +77,8 @@ document.addEventListener('DOMContentLoaded', function () {
   
       matchList.innerHTML = '';
       clinicalKeyLink.hidden = true;
-  
+      clearSavings();
+
       const userInput = inputBox.value;
       const cleaned = userInput.replace(/,/g, "");
       const words = cleaned
@@ -80,7 +127,9 @@ document.addEventListener('DOMContentLoaded', function () {
   
         clinicalKeyLink.href = clinicalKeyUrl;
         clinicalKeyLink.hidden = false;
-  
+
+        await showSavings(new Set(matches.map(m => m.word)));
+
       } catch (err) {
         console.error(err);
         matchList.innerHTML = '<li class="error-message">Lookup data could not be loaded. Please try again.</li>';

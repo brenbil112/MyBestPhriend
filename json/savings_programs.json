@@ -1,0 +1,104 @@
+[
+  {
+    "drug": "Eliquis",
+    "manufacturer": "Bristol Myers Squibb / Pfizer",
+    "url": "https://www.eliquis.bmscustomerconnect.com/savings-and-support",
+    "matches": ["eliquis", "apixaban"]
+  },
+  {
+    "drug": "Xarelto",
+    "manufacturer": "Janssen",
+    "url": "https://www.xarelto-us.com/xarelto-cost/",
+    "matches": ["xarelto", "rivaroxaban"]
+  },
+  {
+    "drug": "Ozempic",
+    "manufacturer": "Novo Nordisk",
+    "url": "https://www.ozempic.com/savings-and-resources/save-on-ozempic.html",
+    "matches": ["ozempic", "semaglutide"]
+  },
+  {
+    "drug": "Wegovy",
+    "manufacturer": "Novo Nordisk",
+    "url": "https://www.wegovy.com/obesity/what-to-pay-for-wegovy.html",
+    "matches": ["wegovy", "semaglutide"]
+  },
+  {
+    "drug": "Rybelsus",
+    "manufacturer": "Novo Nordisk",
+    "url": "https://www.rybelsus.com/savings-and-support.html",
+    "matches": ["rybelsus", "semaglutide"]
+  },
+  {
+    "drug": "Mounjaro",
+    "manufacturer": "Eli Lilly",
+    "url": "https://mounjaro.lilly.com/savings-coverage",
+    "matches": ["mounjaro", "tirzepatide"]
+  },
+  {
+    "drug": "Zepbound",
+    "manufacturer": "Eli Lilly",
+    "url": "https://zepbound.lilly.com/savings",
+    "matches": ["zepbound", "tirzepatide"]
+  },
+  {
+    "drug": "Trulicity",
+    "manufacturer": "Eli Lilly",
+    "url": "https://trulicity.lilly.com/savings-resources",
+    "matches": ["trulicity", "dulaglutide"]
+  },
+  {
+    "drug": "Farxiga",
+    "manufacturer": "AstraZeneca",
+    "url": "https://www.farxiga.com/savings-support",
+    "matches": ["farxiga", "dapagliflozin"]
+  },
+  {
+    "drug": "Lantus",
+    "manufacturer": "Sanofi",
+    "url": "https://www.lantus.com/sign-up-for-savings",
+    "matches": ["lantus"]
+  },
+  {
+    "drug": "Trelegy",
+    "manufacturer": "GSK",
+    "url": "https://www.trelegy.com/savings-and-support/",
+    "matches": ["trelegy", "fluticasone-umeclidinium-vilanterol"]
+  },
+  {
+    "drug": "Dupixent",
+    "manufacturer": "Sanofi / Regeneron",
+    "url": "https://www.dupixent.com/support-savings/copay-card-insurance",
+    "matches": ["dupixent", "dupilumab"]
+  },
+  {
+    "drug": "Repatha",
+    "manufacturer": "Amgen",
+    "url": "https://www.repatha.com/repatha-cost",
+    "matches": ["repatha", "evolocumab"]
+  },
+  {
+    "drug": "Humira",
+    "manufacturer": "AbbVie",
+    "url": "https://www.humira.com/humira-complete/cost-and-copay",
+    "matches": ["humira", "adalimumab"]
+  },
+  {
+    "drug": "Ubrelvy",
+    "manufacturer": "AbbVie",
+    "url": "https://www.ubrelvy.com/savings",
+    "matches": ["ubrelvy", "ubrogepant"]
+  },
+  {
+    "drug": "Vraylar",
+    "manufacturer": "AbbVie",
+    "url": "https://www.vraylar.com/cost-and-savings",
+    "matches": ["vraylar", "cariprazine"]
+  },
+  {
+    "drug": "Rexulti",
+    "manufacturer": "Otsuka / Lundbeck",
+    "url": "https://www.rexulti.com/savings-cost/register",
+    "matches": ["rexulti", "brexpiprazole"]
+  }
+]
